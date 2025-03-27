@@ -1,8 +1,10 @@
 import homeImage from "../assets/homeImg.png"
+import { useRef } from "react"
 
 export default function Home(){
+    const homeRef = useRef()
     return(
-        <div>
+        <div ref={homeRef}>
         <h1>Home</h1>
         <p>1</p>
         <p>2</p>

@@ -1,8 +1,11 @@
 import aboutImg from "../assets/aboutImg.jpg"
+import { useRef } from "react"
 
 export default function About(){
+    const aboutRef = useRef()
+
     return(
-        <div>
+        <div ref={aboutRef}>
         <h1>About</h1>
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lorem ligula, laoreet vel condimentum non, dignissim sed metus. Ut aliquam erat faucibus nulla sollicitudin sagittis. In quis finibus ex, a euismod ipsum. Nam eget nibh ac nulla fringilla efficitur. Nulla vel nisi sapien. Aenean est augue, ullamcorper sit amet tellus a, aliquam malesuada ligula. Praesent a lacinia libero. Fusce vitae venenatis ex, vel faucibus quam. Phasellus maximus leo a condimentum eleifend. Nulla eu euismod orci. Nullam ac dolor lacus. Vestibulum accumsan, nunc vitae condimentum sollicitudin, erat neque aliquet magna, ac laoreet nibh dolor eget dui. Praesent sagittis erat vitae egestas cursus. Quisque consequat scelerisque quam volutpat eleifend. Proin posuere massa urna, ac ultrices libero semper dictum. Vivamus volutpat, lorem eu tristique ultrices, nunc mauris pulvinar justo, at sodales justo turpis at orci.
