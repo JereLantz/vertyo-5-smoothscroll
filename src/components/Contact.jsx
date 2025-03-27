@@ -1,11 +1,8 @@
 import contactImg from "../assets/contactImg.png"
-import { useRef } from "react"
 
-export default function Contact(){
-    const contactRef = useRef()
-
+export default function Contact({ref}){
     return (
-        <div ref={contactRef}>
+        <div ref={ref}>
         <h1>Contact</h1>
         <img src={contactImg} />
         </div>
