@@ -3,7 +3,7 @@ import homeImage from "../assets/homeImg.png"
 export default function Home({ref}){
     return(
         <div ref={ref}>
-        <h1>Home</h1>
+        <h1 className="m-2 uppercase text-3xl">Home</h1>
         <p>1</p>
         <p>2</p>
         <p>3</p>
